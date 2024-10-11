@@ -2,6 +2,7 @@
 
 name: Airrohr Firmware CI
 on:
+  workflow_dispatch:
   push:
     branches: [ master, beta*, feature/** ]
   pull_request:
